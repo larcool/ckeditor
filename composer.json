@@ -20,13 +20,13 @@
     },
     "autoload": {
         "psr-4": {
-            "larcool\\CKEditor\\": "src"
+            "Larcool\\CKEditor\\": "src"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "larcool\\CKEditor\\CKEditorServiceProvider"
+                "Larcool\\CKEditor\\CKEditorServiceProvider"
             ]
 
         }
