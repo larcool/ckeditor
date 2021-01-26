@@ -1,0 +1,34 @@
+{
+    "name": "larcool/ckeditor",
+    "description": "CKEditor 5 extension for laravel-admin",
+    "type": "library",
+    "keywords": ["laravel-admin", "extension", "editor", "CKEditor","CKEditor5"],
+    "homepage": "https://github.com/larcool/ckeditor.git",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "tao zhou",
+            "email": "zt7515@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "encore/laravel-admin": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.0 || ~7.0 || ~9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "larcool\\CKEditor\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "larcool\\CKEditor\\CKEditorServiceProvider"
+            ]
+
+        }
+    }
+}
