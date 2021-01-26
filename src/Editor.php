@@ -1,16 +1,16 @@
 <?php
 
-namespace ghost\CKEditor;
+namespace larcool\CKEditor;
 
 use Encore\Admin\Form\Field\Textarea;
 
 class Editor extends Textarea
 {
-    protected $view = 'ghost-ckeditor::editor';
+    protected $view = 'larcool-ckeditor::editor';
 
     protected static $js = [
-	    'vendor/ghost/ckeditor/ckeditor.js',
-//	    'vendor/ghost/ckeditor/translations/zh-cn.js',
+	    'vendor/larcool/ckeditor/ckeditor.js',
+//	    'vendor/larcool/ckeditor/translations/zh-cn.js',
     ];
 
     public function render()

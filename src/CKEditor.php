@@ -1,6 +1,6 @@
 <?php
 
-namespace ghost\CKEditor;
+namespace larcool\CKEditor;
 
 use Encore\Admin\Extension;
 
