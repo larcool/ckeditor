@@ -4,12 +4,12 @@ CKEditor 5 extension for laravel-admin
 ## Installation
 
 ```bash
-composer require larcool/ckeditor
+composer require alexander/ckeditor
 ```
 
 Then
 ```bash
-php artisan vendor:publish --tag=larcool-ckeditor
+php artisan vendor:publish --tag=alexander-ckeditor
 ```
 
 ## Configuration
@@ -95,6 +95,6 @@ In the `extensions` section of the `config/admin.php` file, add some configurati
 ## Usage
 
 ```php
-Form::extend('editor', \larcool\CKEditor\Editor::class);
+Form::extend('editor', \alexander\CKEditor\Editor::class);
 ```
 

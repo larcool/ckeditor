@@ -1,5 +1,5 @@
 {
-    "name": "larcool/ckeditor",
+    "name": "alexander/ckeditor",
     "description": "CKEditor 5 extension for laravel-admin",
     "type": "library",
     "keywords": ["laravel-admin", "extension", "editor", "CKEditor","CKEditor5"],
@@ -7,7 +7,7 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "tao zhou",
+            "name": "alexander",
             "email": "zt7515@gmail.com"
         }
     ],
@@ -20,13 +20,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Larcool\\CKEditor\\": "src"
+            "alexander\\CKEditor\\": "src"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Larcool\\CKEditor\\CKEditorServiceProvider"
+                "alexander\\CKEditor\\CKEditorServiceProvider"
             ]
 
         }
